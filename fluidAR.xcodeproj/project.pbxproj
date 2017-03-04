@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56695F01CE8B34B00BD7EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56695EF1CE8B34B00BD7EAF /* AppDelegate.swift */; };
+		A56695F71CE8B34B00BD7EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56695F61CE8B34B00BD7EAF /* Assets.xcassets */; };
+		A56695FA1CE8B34B00BD7EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56695F81CE8B34B00BD7EAF /* LaunchScreen.storyboard */; };
+		A566961E1CE8B4A100BD7EAF /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566961D1CE8B4A100BD7EAF /* CameraHandler.swift */; };
+		A5A1B2D41CEA35B300626AC5 /* libdlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A1B2D31CEA35B300626AC5 /* libdlib.a */; };
+		A5A1B2D61CEA41E200626AC5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A1B2D51CEA41E200626AC5 /* Accelerate.framework */; };
+		A5A1B2D81CEA431600626AC5 /* shape_predictor_68_face_landmarks.dat in Resources */ = {isa = PBXBuildFile; fileRef = A5A1B2D71CEA431600626AC5 /* shape_predictor_68_face_landmarks.dat */; };
+		F614CDD41DAFFDAA0061F7FA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F614CDD31DAFFDAA0061F7FA /* Enums.swift */; };
+		F6339D921D590573006C4231 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6339D911D590573006C4231 /* GameScene.swift */; };
+		F6339D941D590587006C4231 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6339D931D590587006C4231 /* Randomizer.swift */; };
+		F63847B31DBFD27600C86015 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63847B21DBFD27600C86015 /* Extensions.swift */; };
+		F63AD7411E24E0C300F583AD /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F63AD7401E24E0C300F583AD /* libjpeg.a */; };
+		F63B9CAA1E119B8D0088A6FF /* mallick_lbpcascade_frontalface.xml in Resources */ = {isa = PBXBuildFile; fileRef = F63B9CA81E119B8D0088A6FF /* mallick_lbpcascade_frontalface.xml */; };
+		F64C2F391DADCFA7006E1021 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64C2F381DADCFA7006E1021 /* opencv2.framework */; };
+		F64DCB0B1E3472DD00DF6746 /* head-obj.obj in Resources */ = {isa = PBXBuildFile; fileRef = F64DCB0A1E3472DD00DF6746 /* head-obj.obj */; };
+		F669C0391DB15C3D001161E1 /* GameGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669C0381DB15C3D001161E1 /* GameGallery.swift */; };
+		F6772BC01DB207AC00328961 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6772BBF1DB207AC00328961 /* DebugView.swift */; };
+		F67EA26E1DB3DEE7006DE24B /* CVFImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = F67EA26C1DB3DEE7006DE24B /* CVFImageProcessor.mm */; };
+		F67EA2711DB3DF39006DE24B /* CVFFaceDetect.mm in Sources */ = {isa = PBXBuildFile; fileRef = F67EA2701DB3DF39006DE24B /* CVFFaceDetect.mm */; };
+		F6E540991E17156E00F78577 /* FaceTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E540981E17156E00F78577 /* FaceTracker.cpp */; };
+		F6EE84841E58D2D900A7F342 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F6EE84831E58D2D900A7F342 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A56695EC1CE8B34B00BD7EAF /* fluidAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fluidAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56695EF1CE8B34B00BD7EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A56695F61CE8B34B00BD7EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56695F91CE8B34B00BD7EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A56695FB1CE8B34B00BD7EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A566961D1CE8B4A100BD7EAF /* CameraHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		A5A1B2CF1CEA317B00626AC5 /* fluidAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fluidAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5A1B2D31CEA35B300626AC5 /* libdlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdlib.a; path = lib/libdlib.a; sourceTree = "<group>"; };
+		A5A1B2D51CEA41E200626AC5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A5A1B2D71CEA431600626AC5 /* shape_predictor_68_face_landmarks.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shape_predictor_68_face_landmarks.dat; path = lib/shape_predictor_68_face_landmarks.dat; sourceTree = "<group>"; };
+		F614CDD31DAFFDAA0061F7FA /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		F6339D911D590573006C4231 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F6339D931D590587006C4231 /* Randomizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
+		F63847B21DBFD27600C86015 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F63AD7401E24E0C300F583AD /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		F63B9CA81E119B8D0088A6FF /* mallick_lbpcascade_frontalface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mallick_lbpcascade_frontalface.xml; sourceTree = "<group>"; };
+		F64C2F381DADCFA7006E1021 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		F64DCB0A1E3472DD00DF6746 /* head-obj.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "head-obj.obj"; sourceTree = "<group>"; };
+		F669C0381DB15C3D001161E1 /* GameGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameGallery.swift; sourceTree = "<group>"; };
+		F6772BBF1DB207AC00328961 /* DebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		F67EA26B1DB3DEE7006DE24B /* CVFImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVFImageProcessor.h; sourceTree = "<group>"; };
+		F67EA26C1DB3DEE7006DE24B /* CVFImageProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVFImageProcessor.mm; sourceTree = "<group>"; };
+		F67EA26D1DB3DEE7006DE24B /* CVFImageProcessorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVFImageProcessorDelegate.h; sourceTree = "<group>"; };
+		F67EA26F1DB3DF39006DE24B /* CVFFaceDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVFFaceDetect.h; sourceTree = "<group>"; };
+		F67EA2701DB3DF39006DE24B /* CVFFaceDetect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVFFaceDetect.mm; sourceTree = "<group>"; };
+		F6E540971E17156E00F78577 /* FaceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceTracker.h; sourceTree = "<group>"; };
+		F6E540981E17156E00F78577 /* FaceTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceTracker.cpp; sourceTree = "<group>"; };
+		F6EE84831E58D2D900A7F342 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56695E91CE8B34B00BD7EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64C2F391DADCFA7006E1021 /* opencv2.framework in Frameworks */,
+				F63AD7411E24E0C300F583AD /* libjpeg.a in Frameworks */,
+				A5A1B2D61CEA41E200626AC5 /* Accelerate.framework in Frameworks */,
+				A5A1B2D41CEA35B300626AC5 /* libdlib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56695E31CE8B34B00BD7EAF = {
+			isa = PBXGroup;
+			children = (
+				A56695EE1CE8B34B00BD7EAF /* fluidAR */,
+				A56695ED1CE8B34B00BD7EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56695ED1CE8B34B00BD7EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56695EC1CE8B34B00BD7EAF /* fluidAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56695EE1CE8B34B00BD7EAF /* fluidAR */ = {
+			isa = PBXGroup;
+			children = (
+				F6339DB31D5914C8006C4231 /* facialRec */,
+				F67D513B1DC187330018501C /* Helpers */,
+				F669C03E1DB16994001161E1 /* collectionView */,
+				F6339D951D5905A0006C4231 /* Game Code */,
+				F67D513C1DC18FE90018501C /* Supporting Files */,
+			);
+			path = fluidAR;
+			sourceTree = "<group>";
+		};
+		F60507361DBFE2A900D1A8EA /* Datasets */ = {
+			isa = PBXGroup;
+			children = (
+				F63B9CA81E119B8D0088A6FF /* mallick_lbpcascade_frontalface.xml */,
+				A5A1B2D71CEA431600626AC5 /* shape_predictor_68_face_landmarks.dat */,
+			);
+			name = Datasets;
+			sourceTree = "<group>";
+		};
+		F60507371DBFE2B200D1A8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A1B2D31CEA35B300626AC5 /* libdlib.a */,
+				F63AD7401E24E0C300F583AD /* libjpeg.a */,
+				F64C2F381DADCFA7006E1021 /* opencv2.framework */,
+				A5A1B2D51CEA41E200626AC5 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6339D951D5905A0006C4231 /* Game Code */ = {
+			isa = PBXGroup;
+			children = (
+				F6772BBF1DB207AC00328961 /* DebugView.swift */,
+				F6339D911D590573006C4231 /* GameScene.swift */,
+			);
+			name = "Game Code";
+			sourceTree = "<group>";
+		};
+		F6339DB31D5914C8006C4231 /* facialRec */ = {
+			isa = PBXGroup;
+			children = (
+				A566961D1CE8B4A100BD7EAF /* CameraHandler.swift */,
+				F60507361DBFE2A900D1A8EA /* Datasets */,
+				F60507371DBFE2B200D1A8EA /* Frameworks */,
+				F649D6361E077CDE005AD765 /* FaceTracker */,
+				F67EA2661DB3DDF2006DE24B /* engine */,
+			);
+			name = facialRec;
+			sourceTree = "<group>";
+		};
+		F649D6361E077CDE005AD765 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F6E540971E17156E00F78577 /* FaceTracker.h */,
+				F6E540981E17156E00F78577 /* FaceTracker.cpp */,
+			);
+			name = FaceTracker;
+			sourceTree = "<group>";
+		};
+		F669C03E1DB16994001161E1 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F669C0381DB15C3D001161E1 /* GameGallery.swift */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
+		F67D513B1DC187330018501C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F614CDD31DAFFDAA0061F7FA /* Enums.swift */,
+				F63847B21DBFD27600C86015 /* Extensions.swift */,
+				F6339D931D590587006C4231 /* Randomizer.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		F67D513C1DC18FE90018501C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE84831E58D2D900A7F342 /* README.md */,
+				A56695EF1CE8B34B00BD7EAF /* AppDelegate.swift */,
+				A56695F81CE8B34B00BD7EAF /* LaunchScreen.storyboard */,
+				F64DCB0A1E3472DD00DF6746 /* head-obj.obj */,
+				A56695FB1CE8B34B00BD7EAF /* Info.plist */,
+				A5A1B2CF1CEA317B00626AC5 /* fluidAR-Bridging-Header.h */,
+				F6EE84751E58BCB000A7F342 /* Content */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F67EA2661DB3DDF2006DE24B /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				F67EA26B1DB3DEE7006DE24B /* CVFImageProcessor.h */,
+				F67EA26C1DB3DEE7006DE24B /* CVFImageProcessor.mm */,
+				F67EA26D1DB3DEE7006DE24B /* CVFImageProcessorDelegate.h */,
+				F67EA26F1DB3DF39006DE24B /* CVFFaceDetect.h */,
+				F67EA2701DB3DF39006DE24B /* CVFFaceDetect.mm */,
+			);
+			name = engine;
+			sourceTree = "<group>";
+		};
+		F6EE84751E58BCB000A7F342 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				A56695F61CE8B34B00BD7EAF /* Assets.xcassets */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56695EB1CE8B34B00BD7EAF /* fluidAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56696141CE8B34B00BD7EAF /* Build configuration list for PBXNativeTarget "fluidAR" */;
+			buildPhases = (
+				A56695E81CE8B34B00BD7EAF /* Sources */,
+				A56695E91CE8B34B00BD7EAF /* Frameworks */,
+				A56695EA1CE8B34B00BD7EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fluidAR;
+			productName = DisplayLiveSamples;
+			productReference = A56695EC1CE8B34B00BD7EAF /* fluidAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56695E41CE8B34B00BD7EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Stanley Chiang";
+				TargetAttributes = {
+					A56695EB1CE8B34B00BD7EAF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4C8V97R8N3;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A56695E71CE8B34B00BD7EAF /* Build configuration list for PBXProject "fluidAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56695E31CE8B34B00BD7EAF;
+			productRefGroup = A56695ED1CE8B34B00BD7EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56695EB1CE8B34B00BD7EAF /* fluidAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56695EA1CE8B34B00BD7EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56695FA1CE8B34B00BD7EAF /* LaunchScreen.storyboard in Resources */,
+				A56695F71CE8B34B00BD7EAF /* Assets.xcassets in Resources */,
+				F63B9CAA1E119B8D0088A6FF /* mallick_lbpcascade_frontalface.xml in Resources */,
+				F64DCB0B1E3472DD00DF6746 /* head-obj.obj in Resources */,
+				A5A1B2D81CEA431600626AC5 /* shape_predictor_68_face_landmarks.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56695E81CE8B34B00BD7EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E540991E17156E00F78577 /* FaceTracker.cpp in Sources */,
+				F67EA2711DB3DF39006DE24B /* CVFFaceDetect.mm in Sources */,
+				F6772BC01DB207AC00328961 /* DebugView.swift in Sources */,
+				F6339D921D590573006C4231 /* GameScene.swift in Sources */,
+				F63847B31DBFD27600C86015 /* Extensions.swift in Sources */,
+				F6EE84841E58D2D900A7F342 /* README.md in Sources */,
+				A566961E1CE8B4A100BD7EAF /* CameraHandler.swift in Sources */,
+				F614CDD41DAFFDAA0061F7FA /* Enums.swift in Sources */,
+				F67EA26E1DB3DEE7006DE24B /* CVFImageProcessor.mm in Sources */,
+				A56695F01CE8B34B00BD7EAF /* AppDelegate.swift in Sources */,
+				F669C0391DB15C3D001161E1 /* GameGallery.swift in Sources */,
+				F6339D941D590587006C4231 /* Randomizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A56695F81CE8B34B00BD7EAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56695F91CE8B34B00BD7EAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56696131CE8B34B00BD7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56696161CE8B34B00BD7EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4C8V97R8N3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fluidAR",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DLIB_JPEG_SUPPORT,
+					DLIB_NO_GUI_SUPPORT,
+					NDEBUG,
+					DLIB_USE_BLAS,
+					DLIB_USE_LAPACK,
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/fluidAR/lib";
+				INFOPLIST_FILE = "$(SRCROOT)/fluidAR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/fluidAR/lib",
+					"$(PROJECT_DIR)/fluidAR",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stan.fluidAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fluidAR/fluidAR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56695E71CE8B34B00BD7EAF /* Build configuration list for PBXProject "fluidAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56696131CE8B34B00BD7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56696141CE8B34B00BD7EAF /* Build configuration list for PBXNativeTarget "fluidAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56696161CE8B34B00BD7EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A56695E41CE8B34B00BD7EAF /* Project object */;
+}
